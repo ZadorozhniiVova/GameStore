@@ -137,7 +137,7 @@ export default {
 
   methods: {
     closeModal() {
-      eventBus.$emit("showLoginModal", false);
+      eventBus.$emit("showLoginModal", false)
     },
   },
   created() {
